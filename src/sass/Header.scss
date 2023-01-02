@@ -1,0 +1,12 @@
+@use "./Functions.scss" as f;
+
+.header {
+  text-align: center;
+  margin-top: f.rem(64);
+
+  &__heading {
+    color: var(--clr-greyish-blue);
+    font-size: f.rem(32);
+    font-weight: 700;
+  }
+}

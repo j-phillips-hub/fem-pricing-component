@@ -1,0 +1,39 @@
+@use "./Functions.scss" as f;
+
+.billing-type {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: f.rem(40) 0 f.rem(80);
+  gap: f.rem(24);
+
+  &__length {
+    color: var(--clr-greyish-blue);
+    font-weight: 700;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: f.rem(56);
+  height: f.rem(32);
+  padding: 0 f.rem(4);
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+  border-radius: f.rem(16);
+
+  &__switch {
+    background-color: var(--clr-white);
+    width: f.rem(24);
+    height: f.rem(24);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.yearly {
+  justify-content: flex-start;
+}

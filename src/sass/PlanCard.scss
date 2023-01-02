@@ -1,0 +1,138 @@
+@use "./functions.scss" as f;
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: f.rem(36);
+
+  @media (min-width: 1000px) {
+    gap: 0;
+  }
+}
+
+.planCard {
+  background-color: var(--clr-white);
+  text-align: center;
+  width: f.rem(327);
+  padding: f.rem(31) f.rem(29);
+  border-radius: f.rem(10);
+
+  .plan {
+    &__type {
+      color: var(--clr-greyish-blue);
+      font-weight: 700;
+      font-size: f.rem(18);
+    }
+
+    &__price {
+      color: var(--clr-dark-greyish-blue);
+      font-size: f.rem(72);
+      font-weight: 700;
+      line-height: 81%;
+      letter-spacing: -2.16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: f.rem(24) 0 f.rem(32);
+
+      .dollarSign {
+        font-size: f.rem(40);
+        line-height: 100%;
+        letter-spacing: -1.2px;
+        margin-right: f.rem(7.5);
+      }
+    }
+
+    &__list {
+      & li:nth-child(1) {
+        border-top: 1px solid var(--clr-greyish-blue-op);
+        padding-top: f.rem(12);
+      }
+
+      li {
+        color: var(--clr-greyish-blue);
+        font-weight: 700;
+        line-height: 153%;
+        margin: f.rem(12) 0;
+        padding-bottom: f.rem(12);
+        border-bottom: 1px solid var(--clr-greyish-blue-op);
+      }
+    }
+
+    &__LearnMore {
+      background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+      color: var(--clr-white);
+      font-size: f.rem(13);
+      font-weight: 700;
+      letter-spacing: 1.39px;
+      line-height: 100%;
+      width: 100%;
+      margin-top: f.rem(32);
+      padding: f.rem(14);
+      border-radius: f.rem(6);
+
+      &:hover {
+        background: transparent;
+        color: var(--clr-dark-purple);
+        border: 1px solid var(--clr-dark-purple);
+      }
+
+      &:focus {
+        outline: none;
+        background: transparent;
+        color: var(--clr-dark-purple);
+        border: 1px solid var(--clr-dark-purple);
+      }
+    }
+  }
+}
+
+.cardContainer div:nth-child(2) {
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+
+  .plan__list {
+    & li:nth-child(1) {
+      border-top: 1px solid var(--clr-white-op);
+    }
+
+    li {
+      border-bottom: 1px solid var(--clr-white-op);
+    }
+  }
+
+  @media (min-width: 1000px) {
+    padding: f.rem(55) f.rem(31);
+  }
+
+  .plan {
+    color: var(--clr-white);
+    & > * {
+      color: var(--clr-white);
+    }
+
+    &__list li,
+    & hr {
+      color: var(--clr-white);
+    }
+
+    & button {
+      background: var(--clr-white);
+      color: var(--clr-dark-purple);
+
+      &:hover {
+        background: transparent;
+        color: var(--clr-white);
+        border: 1px solid var(--clr-white);
+      }
+
+      &:focus {
+        outline: none;
+        background: transparent;
+        color: var(--clr-white);
+        border: 1px solid var(--clr-white);
+      }
+    }
+  }
+}
