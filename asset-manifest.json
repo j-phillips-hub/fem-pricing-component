@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fem-pricing-component/static/css/main.555704c5.css",
+    "main.js": "/fem-pricing-component/static/js/main.a23d074f.js",
+    "static/media/montserrat-v25-latin-700.svg": "/fem-pricing-component/static/media/montserrat-v25-latin-700.2305b86407b28348a63d.svg",
+    "static/media/montserrat-v25-latin-regular.svg": "/fem-pricing-component/static/media/montserrat-v25-latin-regular.fb712f9dbd935ed0cd7c.svg",
+    "static/media/montserrat-v25-latin-regular.ttf": "/fem-pricing-component/static/media/montserrat-v25-latin-regular.506557cdb9bc110dc66b.ttf",
+    "static/media/montserrat-v25-latin-700.ttf": "/fem-pricing-component/static/media/montserrat-v25-latin-700.77da98f4343a6a49cc03.ttf",
+    "static/media/montserrat-v25-latin-700.woff": "/fem-pricing-component/static/media/montserrat-v25-latin-700.fb5068a547276441355d.woff",
+    "static/media/montserrat-v25-latin-regular.woff": "/fem-pricing-component/static/media/montserrat-v25-latin-regular.281179d375517d9c131b.woff",
+    "static/media/montserrat-v25-latin-700.eot": "/fem-pricing-component/static/media/montserrat-v25-latin-700.88eb50b64ae40785c274.eot",
+    "static/media/montserrat-v25-latin-regular.eot": "/fem-pricing-component/static/media/montserrat-v25-latin-regular.a8f361e846968ae00fd6.eot",
+    "static/media/montserrat-v25-latin-700.woff2": "/fem-pricing-component/static/media/montserrat-v25-latin-700.56c09b9a46af6a54eeb3.woff2",
+    "static/media/montserrat-v25-latin-regular.woff2": "/fem-pricing-component/static/media/montserrat-v25-latin-regular.acb6629fe45c43ad5d8b.woff2",
+    "static/media/bg-bottom.svg": "/fem-pricing-component/static/media/bg-bottom.0ed1debdb05aee57e642.svg",
+    "static/media/bg-top.svg": "/fem-pricing-component/static/media/bg-top.4980c1fd1180f71d5782.svg",
+    "index.html": "/fem-pricing-component/index.html",
+    "main.555704c5.css.map": "/fem-pricing-component/static/css/main.555704c5.css.map",
+    "main.a23d074f.js.map": "/fem-pricing-component/static/js/main.a23d074f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.555704c5.css",
+    "static/js/main.a23d074f.js"
+  ]
+}
